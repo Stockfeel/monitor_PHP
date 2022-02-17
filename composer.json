@@ -1,5 +1,6 @@
 {
     "name": "stockfeel/monitor_php",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ken Leng",
@@ -13,5 +14,6 @@
         "psr-4": {
             "Stockfeel\\Monitor_PHP\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
