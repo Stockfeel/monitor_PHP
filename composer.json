@@ -1,0 +1,17 @@
+{
+    "name": "stockfeel/monitor_php",
+    "authors": [
+        {
+            "name": "Ken Leng",
+            "email": "ken@stockfeel.com.tw"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stockfeel\\Monitor_PHP\\": "src/"
+        }
+    }
+}
