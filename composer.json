@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.7",
-        "stockfeel/monitor_php": "dev-master"
+        "stockfeel/monitor_php": "master"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
