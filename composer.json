@@ -2,7 +2,6 @@
     "name": "stockfeel/monitor_php",
     "description": "A PHP SDK for Stockfeel to monitor API Request",
     "license": "MIT",
-    "version": "v1.0.2",
     "authors": [
         {
             "name": "Ken Leng",
