@@ -18,6 +18,5 @@
         "psr-4": {
             "Stockfeel\\Monitor_PHP\\": "src/"
         }
-    },
-    "prefer-stable": true
+    }
 }
