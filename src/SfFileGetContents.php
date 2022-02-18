@@ -11,7 +11,7 @@ class SfFileGetContents extends SfApiMonitor {
   public function useFileGetContents() {
       // [0]: url, [1]: postData
       $args = func_get_args();
-      if (isset($args[1]) && is_array($args[1])) {
+      if (isset($args[1])) {
           $this->genPostFieldsFromPost($args[0], $args[1])
               ->fireAsyncCurl();
           

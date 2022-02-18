@@ -1,5 +1,6 @@
 {
     "name": "stockfeel/monitor_php",
+    "description": "A PHP SDK for Stockfeel to monitor API Request",
     "license": "MIT",
     "authors": [
         {
@@ -10,10 +11,13 @@
     "require": {
         "php": ">=5.3"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
     "autoload": {
         "psr-4": {
             "Stockfeel\\Monitor_PHP\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "prefer-stable": true
 }
