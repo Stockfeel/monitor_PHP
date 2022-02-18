@@ -2,6 +2,7 @@
     "name": "stockfeel/monitor_php",
     "description": "A PHP SDK for Stockfeel to monitor API Request",
     "license": "MIT",
+    "version": "v1.0.2",
     "authors": [
         {
             "name": "Ken Leng",
@@ -9,8 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=5.7",
-        "stockfeel/monitor_php": "master"
+        "php": ">=5.7"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
@@ -20,6 +20,10 @@
             "Stockfeel\\Monitor_PHP\\": "src/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "autoload-dev": {
+        "psr-4": {
+            "Stockfeel\\Monitor_PHP\\Tests": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
 }
